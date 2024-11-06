@@ -47,5 +47,5 @@ The given baseline satasfies the three tasks using straightforward methods. Usin
 
 Significant improvements can be made using advanced models for captioning, speed or car orientation detection, or even hazard trajectory prediction.
 
-# Google Doc for the video 
+# Google Doc Videos 
 https://docs.google.com/document/d/1XjYL2zFI3JxAscmP0uLQPQsAi3jBte5Yih64kVa0B7U/edit?usp=sharing
