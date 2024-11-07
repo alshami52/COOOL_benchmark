@@ -48,6 +48,6 @@ The given baseline satasfies the three tasks using straightforward methods. Usin
 Significant improvements can be made using advanced models for captioning, speed or car orientation detection, or even hazard trajectory prediction.
 
 # Google Doc Videos 
-https://drive.google.com/drive/folders/1u7MtzXH2kmZEAvEhQgHkS1p0VYLmzCw2
+[Video Folder](https://drive.google.com/drive/folders/1u7MtzXH2kmZEAvEhQgHkS1p0VYLmzCw2)
 # License
 This project is released under an [MIT License](https://github.com/alshami52/COOOL_benchmark/blob/main/LICENSE).
