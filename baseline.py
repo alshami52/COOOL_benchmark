@@ -33,7 +33,7 @@ results_file.write("\n")
 ci = Interrogator(Config(clip_model_name="ViT-L-14/openai"))
 
 for video in sorted(list(annotations.keys())):#Iterate through available videos
-        
+    
     video_stream = cv2.VideoCapture(os.path.join(args.video_root, video+".mp4"))
     assert video_stream.isOpened()
     
@@ -123,7 +123,7 @@ for video in sorted(list(annotations.keys())):#Iterate through available videos
         else:
             hazard_caption = captioned_tracks[hazard_track]#Why compute caption again? Re-use hazard desc
             
-        results_file.write(f"{video}_{frame}, {driver_state_flag}, {hazard_track}, {hazard_caption}\n")
+        results_file.write(f"{video}_{frame}, {driver_state_flag}, {hazard_track}, {hazard_caption}" + "".join([", , " for i in range(22)])+'\n')
         
         frame +=1
         
