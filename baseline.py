@@ -54,7 +54,7 @@ for video in sorted(list(annotations.keys())):#Iterate through available videos
         centroids = []
         chips = []
         track_ids = []
-        for ann_type in ['subject', 'object', 'ped']:
+        for ann_type in ['challenge_object']:
             for i in range(len(annotations[video][frame][ann_type])):
                 x1, y1, x2, y2 = annotations[video][frame][ann_type][i]['bbox']
                 track_ids.append(annotations[video][frame][ann_type][i]['track_id'])
@@ -123,7 +123,7 @@ for video in sorted(list(annotations.keys())):#Iterate through available videos
         else:
             hazard_caption = captioned_tracks[hazard_track]#Why compute caption again? Re-use hazard desc
             
-        results_file.write(f"{video}_{frame}, {driver_state_flag}, {hazard_track}, {hazard_caption}" + "".join([", , " for i in range(22)])+'\n')
+        results_file.write(f"{video}_{frame},{driver_state_flag},{hazard_track},{hazard_caption}" + "".join([", , " for i in range(22)])+'\n')
         
         frame +=1
         
