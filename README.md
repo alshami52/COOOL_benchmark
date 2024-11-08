@@ -34,8 +34,8 @@ A sample results file is present in this repo for your convenience, please adher
 - Solutions must be automated, no humans in-the-loop
 - Any publicly available dataset is allowed for pre-training, and any model (not trained on the COOOL Benchmark) is allowed for use in competition solutions
 - We encourage the use of Captioning, LLM (including those which require an API), Open-set, Open-Vocabulary, or Object Detection models.
-- Do NOT stuff random words or large-dictionaries into the caption field, we will check for this.
-- While your code is your own and you are not required to release it as part of this competition, all results must be reproducible (within reason).
+- Do NOT stuff random words or large-dictionaries into the caption field, we will check for this, only a max of 35 characters are allowed. If you submit captions longer than 35 characters, we will only score the first 35.
+- All results must be reproducible (within reason).
 - If we suspect cheating, we will request to review your solution code, if we detect a rule violation or you refuse to share the code which produced your results.csv, we will remove you from the challenge.
 - These rules are subject to change
 
