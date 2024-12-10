@@ -52,7 +52,8 @@ Significant improvements can be made using advanced models for captioning, speed
 
 # Citation
 If you find our work useful, please cite it using the following BibTeX entry:
-@misc{alshami2024cooolchallengeoutoflabelnovel,
+```
+@misc{alshami2024cooolchallengeoutoflabelnovel, 
       title={COOOL: Challenge Of Out-Of-Label A Novel Benchmark for Autonomous Driving}, 
       author={Ali K. AlShami and Ananya Kalita and Ryan Rabinowitz and Khang Lam and Rishabh Bezbarua and Terrance Boult and Jugal Kalita},
       year={2024},
@@ -61,5 +62,6 @@ If you find our work useful, please cite it using the following BibTeX entry:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2412.05462}, 
 }
+```
 # License
 This project is released under an [MIT License](https://github.com/alshami52/COOOL_benchmark/blob/main/LICENSE).
