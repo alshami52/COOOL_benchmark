@@ -63,5 +63,7 @@ If you find our work useful, please cite it using the following BibTeX entry:
       url={https://arxiv.org/abs/2412.05462}, 
 }
 ```
+[Read the paper on arXiv](https://arxiv.org/abs/2412.05462)
+
 # License
 This project is released under an [MIT License](https://github.com/alshami52/COOOL_benchmark/blob/main/LICENSE).
