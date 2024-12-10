@@ -49,7 +49,8 @@ Significant improvements can be made using advanced models for captioning, speed
 
 # Google Doc Videos 
 [Video Folder](https://drive.google.com/drive/folders/1u7MtzXH2kmZEAvEhQgHkS1p0VYLmzCw2)
-#Citation
+
+# Citation
 If you find our work useful, please cite it using the following BibTeX entry:
 @misc{alshami2024cooolchallengeoutoflabelnovel,
       title={COOOL: Challenge Of Out-Of-Label A Novel Benchmark for Autonomous Driving}, 
