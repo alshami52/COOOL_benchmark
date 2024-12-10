@@ -49,5 +49,16 @@ Significant improvements can be made using advanced models for captioning, speed
 
 # Google Doc Videos 
 [Video Folder](https://drive.google.com/drive/folders/1u7MtzXH2kmZEAvEhQgHkS1p0VYLmzCw2)
+#Citation
+If you find our work useful, please cite it using the following BibTeX entry:
+@misc{alshami2024cooolchallengeoutoflabelnovel,
+      title={COOOL: Challenge Of Out-Of-Label A Novel Benchmark for Autonomous Driving}, 
+      author={Ali K. AlShami and Ananya Kalita and Ryan Rabinowitz and Khang Lam and Rishabh Bezbarua and Terrance Boult and Jugal Kalita},
+      year={2024},
+      eprint={2412.05462},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.05462}, 
+}
 # License
 This project is released under an [MIT License](https://github.com/alshami52/COOOL_benchmark/blob/main/LICENSE).
