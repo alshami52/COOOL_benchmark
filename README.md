@@ -53,14 +53,11 @@ Significant improvements can be made using advanced models for captioning, speed
 # Citation
 If you find our work useful, please cite it using the following BibTeX entry:
 ```
-@misc{alshami2024cooolchallengeoutoflabelnovel, 
-      title={COOOL: Challenge Of Out-Of-Label A Novel Benchmark for Autonomous Driving}, 
-      author={Ali K. AlShami and Ananya Kalita and Ryan Rabinowitz and Khang Lam and Rishabh Bezbarua and Terrance Boult and Jugal Kalita},
-      year={2024},
-      eprint={2412.05462},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.05462}, 
+@article{alshami2024coool,
+  title={COOOL: Challenge Of Out-Of-Label A Novel Benchmark for Autonomous Driving},
+  author={AlShami, Ali K and Kalita, Ananya and Rabinowitz, Ryan and Lam, Khang and Bezbarua, Rishabh and Boult, Terrance and Kalita, Jugal},
+  journal={arXiv preprint arXiv:2412.05462},
+  year={2024}
 }
 ```
 [Read the paper on arXiv](https://arxiv.org/abs/2412.05462)
